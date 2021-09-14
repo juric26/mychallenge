@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+:root{
+    --Pale: hsl(225, 100%, 94%);
+    --Bright: hsl(245, 75%, 52%);   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--Pale);
+    font-weight: 500, 700, 900;
+    font-size: 1rem;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    
+
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.container{
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    margin: 70px auto;
+    box-shadow: rgb(181, 180, 180);
+    
+}
+
+.header img{
+    border-radius: 20px 20px 0 0;
+}
+
+.order-summary{
+    line-height: 25px;
+}
+.order-summary h1{
+    font-size: 2.2rem;
+    margin: 40px 0 20px 0;
+}
+
+.order-summary p{
+    color: rgb(120, 119, 119);
+    
+}
+
+.annual-plan{
+    width: 350px;
+    position: relative;
+    margin: auto;
+    padding-left: 0;
+    background: rgba(225, 223, 223, 0.247);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 100px;
+    
+    
+    
+} 
+.annual-plan img{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+
+}
+
+.price{
+    text-align: left;
+    margin-left: 80px;
+    line-height: 25px;
+    padding: 25px 0px;
+    
+}
+
+.price p{
+    color: hsl(224, 23%, 55%);
+}
+
+
+.annual-plan a{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: hsl(245, 75%, 52%);
+
+}
+
+
+.block-btn{
+    width: 320px;
+    background: var(--Bright);
+    margin: auto;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.block-btn:hover{
+    background: rgb(172, 78, 35);
+}
+
+
+
+.block-btn a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.text-btn{
+    padding: 30px 0px 40px 0px;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+
+}
+
+.text-btn:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+footer{
+    font-size: 12px;
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+    main .container{
+        width: 375px;
+    }
+    
+    .header img{
+        width: 375px; 
+        
+    }
+   
+     
+
+}
+      
